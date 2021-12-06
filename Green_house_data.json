@@ -1,0 +1,55 @@
+{
+    "table": {
+        "name": "Green House Gas Data",
+        "description": "description of the table for visual hints",
+        "column": [
+          {
+            "name": "Country or Area",
+            "datatype": "NVARCHAR(256)",
+            "nullable": true,
+            "description": "Country or Area",
+            "label": "Country or Area",
+            "usage": "attribute",
+            "regularAggregate": "countDistinct"
+          },
+          {
+            "name": "Year",
+            "datatype": "DOUBLE",
+            "nullable": true,
+            "description": "Year",
+            "label": "Year",
+            "usage": "attribute",
+            "regularAggregate": "average"
+          },
+          {
+            "name": "CO2",
+            "datatype": "DOUBLE",
+            "nullable": true,
+            "description": "CO2",
+            "label": "CO2",
+            "usage": "fact",
+            "regularAggregate": "average"
+          },
+          {
+            "name": "Methane",
+            "datatype": "DOUBLE",
+            "nullable": true,
+            "description": "Methane",
+            "label": "Methane",
+            "usage": "fact",
+            "regularAggregate": "average"
+          },
+          {
+            "name": "NitrousOxide",
+            "datatype": "DOUBLE",
+            "nullable": true,
+            "description": "NitrousOxide",
+            "label": "NitrousOxide",
+            "usage": "fact",
+            "regularAggregate": "average"
+          }
+        ]
+    },
+    "label": "Module Name",
+    "identifier": "moduleId"
+}
