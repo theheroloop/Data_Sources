@@ -3,7 +3,7 @@
   "source": {
     "id": "StringID",
     "srcUrl": {
-      "sourceUrl": "https:\/\/raw.githubusercontent.com\/Sunivihaan\/sampleapp\/master\/static\/json\/UNdata_Export.csv",
+      "sourceUrl": "https:\/\/raw.githubusercontent.com\/theheroloop\/Data_Sources\/main\/UNdata_Export.csv",
       "mimeType": "text\/csv",
       "property": [
         {
